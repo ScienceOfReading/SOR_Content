@@ -13,3 +13,8 @@ The SOR mobile app is built with love and the [Nativescript](https://nativescrip
 * [timeline_entries.js](timeline_entries.js) is just for the Timeline page. (Basically, each entry has a year.)
 
 Each page entry SHOULD contain a list of the XP's and timeline_entries on that page. Unfortunately, we didn't start it that way, and not all have been converted yet. Contact Ed if you need it.
+
+## About
+The SOR mobile app is intended to be a community-owned asset for the Science of Reading community. 
+
+We seek suggestions as to how best to make that happen. 
