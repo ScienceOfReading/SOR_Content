@@ -1,4 +1,5 @@
-# SOR_Content
+# SOR_Content 
+![app logo](/images/science-of-reading.png)
 A public copy of all the pages, lessons, and resources in the Science of Reading mobile app https://scienceofreading.app .
 
 While we work to make the entire code base Open Source, here's a copy of the lessons data. 
