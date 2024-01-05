@@ -19,3 +19,9 @@ Each page entry SHOULD contain a list of the XP's and timeline_entries on that p
 The SOR mobile app is intended to be a community-owned asset for the Science of Reading community. 
 
 We seek suggestions as to how best to make that happen. 
+
+### License
+Content licensed under the
+##### [GNU Affero General Public License v3.0](https://github.com/EdJones/-Black-Teen-Literacy-Matters/blob/main/license)
+
+[Quick license summary on tldrlegal](https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0))
