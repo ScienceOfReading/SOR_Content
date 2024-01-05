@@ -279,7 +279,7 @@ export const topicPages = [{
   },
   {
     sectionHeading: "Using the right tools for the task.",
-    sectionText1: "text3",
+    sectionText1: "Again, still just getting started helping with these,...",
     sectionText2: "",
     sectionText3: "",
     sectionXPs: ["XP154", "XP155", "XP156", "XP157"]
@@ -315,10 +315,11 @@ export const topicPages = [{
   page: "ProgressTracking",
   title: "Science of Reading: Learner Progress Tracking",
   challenge: "How do we track the progress as children learn to read?",
-  pageXPs: [],
+  pageXPs: ["XP165", "XP160", "XP161", "XP162", "XP163", "XP164"],
   text1: "It's critical to know that each student has mastered all of the skills and knowledge essential to reading success.",
   text2: "",
   text3: "",
+  use_sections: false,
   closingText: "",
   closingText2: "",
   modal: ""
