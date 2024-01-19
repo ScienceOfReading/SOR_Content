@@ -111,14 +111,20 @@ export const topicPages = [{
   page: "Dyslexia",
   title: "Science of Reading--Dyslexia + DLD",
   challenge: "What Should Parents and Teachers Know of Dyslexia? And how is it different from DLD?",
-  text1: "DLDs are actually more common than devlopmental dyslexia.",
+  text1: "",
   text2: "",
   text3: "",
-  pageXPs: ["XP6101"],
+  pageXPs: [],
   use_sections: true,
   sectionInfo: [{
+    sectionHeading: "DLDs are actually more common than devlopmental dyslexia.",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP6101"]
+  }, {
     sectionHeading: "Developmental Language Disorders",
-    sectionText1: "When children have issues with languge comprehension--not word recognition, but with understanding language, ",
+    sectionText1: "When children have issues with language comprehension--not word recognition, but with understanding language, ",
     sectionText2: "DLDs affect how children learn to read.",
     sectionText3: "",
     sectionXPs: ["XP6105", "XP6106"]
@@ -180,7 +186,7 @@ export const topicPages = [{
   page: "Writing",
   title: "Science of Reading--Writing",
   challenge: "Writing for Reading",
-  use_sections: "false",
+  use_sections: false,
   pageXPs: ["XP124", "XP120", "XP121", "XP122"],
   text1: "Teaching students to write clear, interesting sentences is crucial to teaching them how to be good, competant readers. ",
   text2: "It was hard to leave this out of Level One. The fundamental insight certainly belongs there.",
@@ -192,10 +198,18 @@ export const topicPages = [{
   page: "BadUgly",
   title: "Science of Reading--Good, Bad, Ugly",
   challenge: "Curriculum: The Good, the Bad, and the Ugly.",
+  use_sections: false,
   pageXPs: ["XP112", "XP113", "XP5670", "XP5610", "XP117", "XP111", "XP119"],
   text1: "",
   text2: "",
   text3: "",
+  sectionInfo: [{
+    sectionHeading: "",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: []
+  }],
   closingText: "",
   closingText2: "",
   modal: ""
@@ -275,7 +289,7 @@ export const topicPages = [{
     sectionText1: "Before we offer any child extra help, it's critical to be absolutely clear the exact help they need.",
     sectionText2: "",
     sectionText3: "",
-    sectionXPs: ["XP6211", "XP6212"]
+    sectionXPs: ["XP6211", "XP6212", "XP158"]
   },
   {
     sectionHeading: "Using the right tools for the task.",
@@ -385,7 +399,7 @@ export const topicPages = [{
   page: "ResearchConsumption",
   title: "Science of Reading--Using Research",
   challenge: "Not All Research is Created Equal. How to Tell?",
-  pageXPs: ["XP2101", "XP2102", "XP2103"],
+  pageXPs: ["XP2104", "XP2101", "XP2102", "XP2103"],
   text1: "Discussions of teaching often degenerate to very different kinds of 'peer-reviewed' papers being thrown past each other.",
   text2: "Growing an understanding of each takes some tough work.",
   text3: "",
@@ -452,11 +466,53 @@ export const topicPages = [{
   page: "PhonicsApproaches",
   title: "Science of Reading--Phonics Instructional Approaches",
   challenge: "`Phonics` can mean many things.",
-  pageXPs: ["XP5003", "XP5004", "XP5007", "XP5005", "XP5006"],
+  use_sections: true,
   text1: "Much debate continues within the S.o.R. community as to exactly which forms of phonics instruction are most effective.",
-  text2: "Why isn't 'action' spelled 'acshun'?",
+  text2: "",
   text3: "",
-  closingText: "As we develop this section, we'll try to help you make sense of that debate.",
+  sectionInfo: [{
+    sectionHeading: "",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5003", "XP5004"]
+  },
+  {
+    sectionHeading: "Speech-to-Print",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5007", "XP5013", "XP5010"]
+  },
+  {
+    sectionHeading: "Why isn't 'action' spelled 'acshun'?",
+    sectionText1: "Or, What is Structured Word Inquiry?",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5005", "XP5006"]
+  }],
+  pageXPs: [],
+  closingText: "As we develop this section, we'll try to help you make sense of the debate.",
+  closingText2: "",
+  modal: ""
+}, {
+  page: "FirstGrade",
+  title: "Science of Reading--First Grade",
+  challenge: "To be on track for 3rd grade proficiency, what would we like to see done in 1st?",
+  use_sections: true,
+  text1: "",
+  text2: "",
+  text3: "",
+  sectionInfo: [
+    {
+      sectionHeading: "Effective Practices",
+      sectionText1: "",
+      sectionText2: "",
+      sectionText3: "",
+      sectionXPs: ["XP2611"]
+    }],
+  pageXPs: [],
+  closingText: "As we develop this section, we'll try to help you make sense of the debate.",
   closingText2: "",
   modal: ""
 }, {
