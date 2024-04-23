@@ -17,7 +17,7 @@ export const topicPages = [{
   text1: "",
   text2: "",
   text3: "",
-  closingText: "",
+  closingText: "You know your learners. Don't you?",
   closingText2: "",
   modal: ""
 }, {
@@ -48,8 +48,22 @@ export const topicPages = [{
   challenge: "Is Reading Comprension A Skill?",
   pageXPs: [],
   text1: "",
-  text2: "Comprehension instruction IS NOT worksheets with Find the Main Idea. ",
-  text3: "Comprehension instruction IS done within a comprehensive high quality curriculum, with proper training of teachers, employing a number of proven reading strategies.",
+  text2: "",
+  text3: "",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP17", "XP18", "XP19"]
+  }, {
+    sectionHeading: "",
+    sectionText1: "Comprehension instruction IS NOT worksheets with Find the Main Idea.",
+    sectionText2: "Comprehension instruction IS done within a comprehensive high quality curriculum, with proper training of teachers, employing a number of proven reading strategies.",
+    sectionText3: "",
+    sectionXPs: ["XP20", "XP23", "XP24", "XP5402"]
+  }],
   closingText: "",
   closingText2: "",
   modal: ""
@@ -65,10 +79,10 @@ export const topicPages = [{
   closingText2: "",
   modal: ""
 }, {
-  page: "StructuredLit",
-  title: "Science of Reading--Structured Literacy",
-  challenge: "Foundations",
-  pageXPs: [],
+  page: "OrthographicMapping",
+  title: "Science of Reading--Orthographic Mapping",
+  challenge: "A Deeper Understanding of Committing Words to Useable Memory",
+  pageXPs: ["XP34", "XP35", "XP36",],
   text1: "",
   text2: "",
   text3: "",
@@ -183,14 +197,152 @@ export const topicPages = [{
   closingText2: "",
   modal: ""
 }, {
+  page: "StructuredLit",
+  title: "Science of Reading--Structured Literacy",
+  challenge: "What best practices will lead to ALL kids reading?",
+  pageXPs: ["XP5610"],
+  text1: "We call those gap-closing practices 'Structured Literacy.'",
+  text2: "",
+  text3: "",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "Structured Literacy",
+    sectionText1: "Kids have a small window to become fluent readers, and we need to act every day, every year to help them learn.",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP610"]
+  }, {
+    sectionHeading: "Assess Skills, Not Levels",
+    sectionText1: "Within that small window of time, reading 'levels' don't tell us what we need to know.",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5222"]
+  }],
+  closingText: "",
+  closingText2: "",
+  modal: ""
+}, {
+  page: "WordRecognition",
+  title: "Science of Reading--Word Recognition",
+  challenge: "How Do We Assure That ALL Kids Can Read the Code?",
+  use_sections: true,
+  pageXPs: [],
+  text1: "In Level One, we considered how children use sounds to store and process written words.",
+  text2: "If you haven't dug into both the 'How Kids Learn' page and the 'Orthographic Mapping' page, now's a good time!",
+  text3: "",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "What to Stop Doing",
+    sectionText1: "If teachers are to shift their practices, what might go out to make room for the new?",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5211", "XP5214"]
+  },
+  {
+    sectionHeading: "Give all kids decoding skills and practice.",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5213", "XP5231"],
+    closingText: "For a discussion of different approaches to word level instruction, see the 'Phonics Approaches' page in Level III."
+  },
+  {
+    sectionHeading: "About 20% of kids may need additional practice.",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5221"]
+  },
+  {
+    sectionHeading: "Work toward automaticity.",
+    sectionText1: "Honestly, I'm not sure what should go in this section right now.",
+    sectionText2: "We see lots of practices. Which onese are best?",
+    sectionText3: "",
+    sectionXPs: ["XP5251", "XP5261"]
+  },
+  {
+    sectionHeading: "Keep going, beyond phonics.",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5504"]
+  }],
+  closingText: "",
+  closingText2: "",
+  modal: ""
+}, {
+  page: "Automaticity",
+  title: "Science of Reading--Building Automaticity",
+  challenge: "Word Recognition has to become instant. How do we get ALL readers to this?",
+  use_sections: true,
+  pageXPs: [],
+  text1: "",
+  text2: "",
+  text3: "",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5211"]
+  },
+  {
+    sectionHeading: "Give all kids decoding skills and practice.",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5213", "XP5231"],
+    closingText: "For a discussion of different approaches to word level instruction, see the 'Phonics Approaches' page in Level III."
+  },
+  {
+    sectionHeading: "About 20% of kids may need additional practice.",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5221"]
+  },
+  {
+    sectionHeading: "Keep going, beyond phonics.",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5504"]
+  }],
+  closingText: "",
+  closingText2: "",
+  modal: ""
+}, {
   page: "Writing",
-  title: "Science of Reading--Writing",
-  challenge: "Writing for Reading",
-  use_sections: false,
-  pageXPs: ["XP124", "XP120", "XP121", "XP122"],
-  text1: "Teaching students to write clear, interesting sentences is crucial to teaching them how to be good, competant readers. ",
-  text2: "It was hard to leave this out of Level One. The fundamental insight certainly belongs there.",
-  text3: "To clearly explain this, we have to get into details of practice.",
+  title: "Science of Reading--Spelling and Writing",
+  challenge: "Spelling and Writing for Reading",
+  use_sections: true,
+  pageXPs: [],
+  text1: "",
+  text2: "",
+  text3: "",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "Spelling as a Reading Diagnosic Tool",
+    sectionText1: "Teachers have a free, powerful diagnostic at the ready any time.",
+    sectionText2: "Are they sufficuently trained to use it?",
+    sectionText3: "",
+    sectionXPs: ["XP4310"]
+  },
+  {
+    sectionHeading: "Spelling Instruction",
+    sectionText1: "This probably isn't your father's spelling instruction.",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP4211"]
+  },
+  {
+    sectionHeading: "Teaching Sentence Writing",
+    sectionText1: "Teaching students to write clear, interesting sentences is crucial to teaching them how to be good, competant readers. ",
+    sectionText2: "It was hard to leave this out of Level One. The fundamental insight certainly belongs there.",
+    sectionText3: "To clearly explain this, we have to get into details of practice.",
+    sectionXPs: ["XP124", "XP120", "XP121", "XP122"]
+  }],
   closingText: "",
   closingText2: "",
   modal: ""
@@ -199,9 +351,43 @@ export const topicPages = [{
   title: "Science of Reading--Good, Bad, Ugly",
   challenge: "Curriculum: The Good, the Bad, and the Ugly.",
   use_sections: false,
-  pageXPs: ["XP112", "XP113", "XP5670", "XP5610", "XP117", "XP111", "XP119"],
+  pageXPs: [],
   text1: "",
   text2: "",
+  text3: "",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "Teachers Pay Teachers is Not Your Friend",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP112"]
+  },
+  {
+    sectionHeading: "Neither Are Some of the Most Popular Programs",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP113", "XP5670", "XP119"]
+  },
+  {
+    sectionHeading: "So, What to Pick?",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5610"]
+  }],
+  closingText: "",
+  closingText2: "",
+  modal: ""
+}, {
+  page: "Parents",
+  title: "Science of Reading--Pre-K & Parents",
+  challenge: "How Do We Assure Kids Are Ready to Start School",
+  use_sections: false,
+  pageXPs: [],
+  text1: "It's not the job of parents to teach reading; and schools can teach every child, no matter their background.",
+  text2: "Yet some kids will need an extra bit of help with language. It's important we start giving them that as early as possible, which means catching the need before they get to school.",
   text3: "",
   sectionInfo: [{
     sectionHeading: "",
@@ -217,7 +403,7 @@ export const topicPages = [{
   page: "Kindergarten",
   title: "Science of Reading--Kindergarten",
   challenge: "How Can Teachers of the Littlest Improve their Reading Readiness?",
-  pageXPs: [],
+  pageXPs: ["XP5121", "XP132", "XP138", "XP133", "XP134", "XP135", "XP136", "XP137", "XP5111"],
   text1: "",
   text2: "",
   text3: "",
@@ -261,14 +447,37 @@ export const topicPages = [{
   page: "ELABlock",
   title: "Building the ELA Block/Day",
   challenge: "Squeezing the Most out of Classroom Time",
-  pageXPs: [],
+  pageXPs: ["XP261", "XP117",],
   text1: "'How do you structure your ELA block (day)?'",
   text2: "This is one of the most common questions asked in the SOR groups.",
   text3: "And it's not one for which science gives us a ton of answers.",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "Start With A Whole-School Curriculum Map",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP260"]
+  },
+  {
+    sectionHeading: "Get the Most Effective Use of the Whole Class Instructional time",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP261", "XP266", "XP268", "XP267"]
+  },
+  {
+    sectionHeading: "Optimize Small Group Time",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP117", "XP263", "XP264"]
+  }],
   closingText: "",
   closingText2: "",
   modal: ""
-}, {
+},
+{
   page: "Interventions",
   title: "Science of Reading--Interventions",
   challenge: "",
@@ -282,21 +491,21 @@ export const topicPages = [{
     sectionText1: "A brief look at some of the most common ways we give young learners extra help.",
     sectionText2: "",
     sectionText3: "",
-    sectionXPs: ["XP150", "XP151"]
+    sectionXPs: ["XP159", "XP150", "XP151", "XP164"]
   },
   {
     sectionHeading: "Exactly the right help for each child",
     sectionText1: "Before we offer any child extra help, it's critical to be absolutely clear the exact help they need.",
     sectionText2: "",
     sectionText3: "",
-    sectionXPs: ["XP6211", "XP6212", "XP158"]
+    sectionXPs: ["XP6108", "XP6211", "XP6212", "XP158"]
   },
   {
     sectionHeading: "Using the right tools for the task.",
     sectionText1: "Again, still just getting started helping with these,...",
     sectionText2: "",
     sectionText3: "",
-    sectionXPs: ["XP154", "XP155", "XP156", "XP157"]
+    sectionXPs: ["XP154", "XP155", "XP156", "XP6107", "XP157"]
   }],
   image1: "~/images/impact.jpg",
   image2: "~/images/InterventionEffects.png",
@@ -307,10 +516,32 @@ export const topicPages = [{
   page: "Readers",
   title: "Science of Reading: Decodable Readers",
   challenge: "Choosing Decodable Readers",
-  pageXPs: ["XP204", "XP200", "XP202", "XP201"],
+  pageXPs: ["XP204", "XP200", "XP202", "XP201", "XP205", "XP203", "XP5021"],
   text1: "The science is actually still out on the importance of decodable readers. ",
   text2: "Yet many teachers like them, and they can help guide teachers as they work through their kids' Swiss Cheese Knowledge of Phonics.",
   text3: "",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "Why Decodables? And how?",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP204", "XP202", "XP205"]
+  },
+  {
+    sectionHeading: "Finding Approapriate Decodables--some lists",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP203", "XP201"]
+  },
+  {
+    sectionHeading: "About that Science...",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5021"]
+  }],
   closingText: "",
   closingText2: "",
   modal: "ModalReaders"
@@ -327,13 +558,14 @@ export const topicPages = [{
   modal: ""
 }, {
   page: "ProgressTracking",
-  title: "Science of Reading: Learner Progress Tracking",
+  title: "Science of Reading: Learner Progress Monitoring",
   challenge: "How do we track the progress as children learn to read?",
-  pageXPs: ["XP165", "XP160", "XP161", "XP162", "XP163", "XP164"],
+  pageXPs: ["XP165", "XP167", "XP160", "XP161", "XP162", "XP163", "XP164", "XP166"],
   text1: "It's critical to know that each student has mastered all of the skills and knowledge essential to reading success.",
-  text2: "",
+  text2: "While there are different approaches to this, respected researcher Matt Burns gives an overview:",
   text3: "",
   use_sections: false,
+  image1: "~/images/progress.png",
   closingText: "",
   closingText2: "",
   modal: ""
@@ -352,7 +584,7 @@ export const topicPages = [{
   page: "Training",
   title: "Science of Reading: Teacher Training",
   challenge: "Training is Critical if We're to Eliminate Kids' Swiss Cheese Phonics Knowledge",
-  pageXPs: ["XP226", "XP225", "XP220", "XP221", "XP222", "XP223", "XP224"],
+  pageXPs: ["XP226", "XP225", "XP220", "XP221", "XP222", "XP223", "XP224", "XP2502"],
   text1: "While you can train yourself in a real pinch, formal training makes things so much better.",
   text2: "It's hard to find the right, effective training. We'll do our best to help.",
   text3: "",
@@ -375,8 +607,93 @@ export const topicPages = [{
   title: "Science of Reading--Parmesian, Please",
   challenge: "From Swiss to Parmesian",
   pageXPs: ["XP237", "XP230", "XP231", "XP238", "XP232", "XP234", "XP235", "XP236", "XP237"],
-  text1: "Those holes in phonics knowledge and/or phonological processing skills won't fix themselves.",
-  text2: "And every class is different on how to address them.",
+  text1: "Those holes in phonics knowledge and/or phonological processing skills won't fix themselves. Nor will issues with language comprehension.",
+  text2: "And every class is different in how to address them.",
+  text3: "",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "The Basic Approach",
+    sectionText1: "30 minues a day of explicit, systematic instruction--plus intentional progress monitoring--gives the core formula for success.",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP237", "XP230", "XP231"]
+  }, {
+    sectionHeading: "Then Follow Up for Kids Who Need It",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP238", "XP232", "XP234", "XP235", "XP236"]
+  }],
+  closingText: "",
+  closingText2: "",
+  modal: ""
+}, {
+  page: "OralLanguage",
+  title: "Science of Reading--Oral Language Development",
+  challenge: "Upon this Rock...",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "Start in the Classroom",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5341", "XP5342", "XP5346"]
+  },
+  {
+    sectionHeading: "Screen for the 1 in 12 who have developmental language disorders, who need further support. ",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5344", "XP5345"]
+  }],
+  pageXPs: [],
+  text1: "Oral language is the ground on which good reading is built.",
+  text2: "If we don't pay close enough attention to a child's oral language abilities, their reading will suffer, too.",
+  text3: "",
+  closingText: "",
+  closingText2: "",
+  modal: ""
+}, {
+  page: "Classroom",
+  title: "Science of Reading--In the Classroom",
+  challenge: "Show Us the Video!",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5241", "XP5242"]
+  }],
+  pageXPs: [],
+  text1: "Let's look inside some classrooms, and watch teachers doing this.",
+  text2: "",
+  text3: "",
+  closingText: "",
+  closingText2: "",
+  modal: ""
+}, {
+  page: "ComprehensionII",
+  title: "Science of Reading--Comprehension Level II",
+  challenge: "Teaching to Grow Comprehension",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "Comprehension instruction IS NOT worksheets with Find the Main Idea.",
+    sectionText1: "So much time and energy has been expended on teaching and measuring 'comprehension skills'. Research tells us, it doesn't help.",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5521", "XP5321"]
+  },
+  {
+    sectionHeading: "Comprehension instruction IS done within a comprehensive high quality curriculum, with proper training of teachers, employing a number of proven reading strategies.",
+    sectionText1: "Focus each day on rigorous, challenging texts.",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP5509", "XP5411", "XP5330", "XP5311", "XP5512", "XP5503", "XP5506"]
+  }],
+  pageXPs: [],
+  text1: "",
+  text2: "",
   text3: "",
   closingText: "",
   closingText2: "",
@@ -389,17 +706,37 @@ export const topicPages = [{
   text1: "Here's where we really start to dive in. What have scientists told us? In their own, original words?",
   text2: "In earlier sections, we gave a few seminal papers & experiments. But here, we really want to lay out a comprehensive view of the landscape.",
   text3: "This will be work for version 2 or 3, to be sure. Still, let's give it a start.",
-  closingText: "Well! Just from these, we can see that the Science of Reading, even among scientists, is not only still evolving; its living and human nature can invite passion from the most seasoned of researchers.",
-  closingText2: "We put the two models above, not to choose one approach, but to indicate that we'll all have an incomplete understanding. Many trainers will embrace a third graphic, the famous 'Scarborough's Reading Rope.'",
-  closingText3: "For now, we'll leave the research section at this, and invite you to meet some of the people who give us the Science of Reading.",
+  use_sections: true,
+  sectionInfo: [
+    {
+      sectionHeading: "A Whole Lotta' Evidence",
+      sectionText1: "",
+      sectionText2: "",
+      sectionText3: "",
+      sectionXPs: ["XP2020"]
+    }, {
+      sectionHeading: "The Evolving Models of Reading",
+      sectionText1: "",
+      sectionText2: "",
+      sectionText3: "",
+      sectionXPs: ["XP2000", "XP2001", "XP2002", "XP2003"],
+      closingText: "Well! Just from these, we can see that the Science of Reading, even among scientists, is not only still evolving; its living and human nature can invite passion from the most seasoned of researchers.",
+      closingText2: "We put the two models above, not to choose one approach, but to indicate that we'll all have an incomplete understanding. Many trainers will embrace a third graphic, the famous 'Scarborough's Reading Rope.'",
+      closingText3: "For now, we'll leave the research section at this, and invite you to meet some of the people who give us the Science of Reading.",
+    }, {
+      sectionHeading: "Then There's the Research on How to Do Research",
+      sectionText1: "What constitutes best practice for researchers?",
+      sectionText2: "Of course, this doesn't stand still, either. 'Ideal' approaches to research change, too.' ",
+      sectionText3: "",
+      sectionXPs: ["XP2032", "XP2031"]
+    }],
   savedTExt: "Is reality more in the middle? Will practitioners and program developers use both?",
-  challenge2: "The Evolving Models of Reading",
   modal: ""
 }, {
   page: "ResearchConsumption",
   title: "Science of Reading--Using Research",
   challenge: "Not All Research is Created Equal. How to Tell?",
-  pageXPs: ["XP2104", "XP2101", "XP2102", "XP2103"],
+  pageXPs: ["XP2110", "XP2104", "XP2101", "XP2102", "XP2103"],
   text1: "Discussions of teaching often degenerate to very different kinds of 'peer-reviewed' papers being thrown past each other.",
   text2: "Growing an understanding of each takes some tough work.",
   text3: "",
@@ -421,7 +758,7 @@ export const topicPages = [{
   page: "Issues",
   title: "Science of Reading--Issues",
   challenge: "Issues, Disagreements, and Controversies",
-  pageXPs: ["XP2410", "XP2402", "XP2403", "XP2404", "XP2405"],
+  pageXPs: ["XP2410", "XP2402", "XP2403", "XP2404", "XP2405", "XP2421"],
   text1: "That now famous term 'Scientific Consensus'. What if it's not yet there?",
   text2: "Let's explore a few areas where we need more research. Or, at least, better interpretations of the existing studies.",
   text3: "Again, this will evolve more in version 2",
@@ -509,7 +846,7 @@ export const topicPages = [{
       sectionText1: "",
       sectionText2: "",
       sectionText3: "",
-      sectionXPs: ["XP2611"]
+      sectionXPs: ["XP2611", "XP2615"]
     }],
   pageXPs: [],
   closingText: "As we develop this section, we'll try to help you make sense of the debate.",
@@ -519,19 +856,41 @@ export const topicPages = [{
   page: "HowKidsLearn",
   title: "Science of Reading--How Children Learn to Read",
   challenge: "What Do We Know about Reading, and How Young Kids Learn to Do It?",
-  pageXPs: ["XP300", "XP301", "XP303", "XP310", "XP302"],
+  pageXPs: [],
   text1: "This ought be an entire section of the app. With fully interactive, multi-media engagement.",
-  challenge2: "Who Knew, and When Did They Know It?",
+  challenge2: "",
   text2: "",
-  challenge3: "And What, Exactly, Did They Know?",
+  challenge3: "",
   text3: "",
+  use_sections: true,
+  sectionInfo: [{
+    sectionHeading: "",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP300", "XP301", "XP303"]
+  },
+  {
+    sectionHeading: "Who Knew, and When Did They Know It?",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP310"]
+  },
+  {
+    sectionHeading: "And What, Exactly, Did They Know?",
+    sectionText1: "",
+    sectionText2: "",
+    sectionText3: "",
+    sectionXPs: ["XP302"]
+  }],
   closingText: "",
   closingText2: "",
   modal: ""
 }, {
   page: "ComprehensionIII",
   title: "Science of Reading--Comprehension Level III",
-  challenge: "Teaching to Grow Comprehension",
+  challenge: "Deeper in to Comprehension",
   use_sections: true,
   sectionInfo: [{
     sectionHeading: "Comprehension instruction IS NOT worksheets with Find the Main Idea.",
@@ -545,7 +904,7 @@ export const topicPages = [{
     sectionText1: "Focus each day on rigorous, challenging texts.",
     sectionText2: "",
     sectionText3: "",
-    sectionXPs: ["XP5509", "XP5512", "XP5502", "XP5503", "XP5504", "XP5507", "XP5508"]
+    sectionXPs: ["XP5502", "XP5508"]
   }],
   pageXPs: [],
   text1: "",
@@ -589,7 +948,7 @@ export const topicPages = [{
   page: "GradSchools",
   title: "Science of Reading--Grad Schools",
   challenge: "How Can I Specialize in This?",
-  pageXPs: ["XP7000"],
+  pageXPs: ["XP7000", "XP7011"],
   text1: "Not many universites have a Dept. of Science of Reading.",
   text2: "So, where to go to study?",
   text3: "",
@@ -600,7 +959,7 @@ export const topicPages = [{
   page: "LearningScience",
   title: "Science of Reading--Science of Learning",
   challenge: "The Broader Science about Learning",
-  pageXPs: ["XP2220", "XP2201", "XP2202", "XP2230", "XP2210", "XP2240"],
+  pageXPs: ["XP2220", "XP2201", "XP2202", "XP2230", "XP2210", "XP2240", "XP2250", "XP2261"],
   text1: "There's a lot more science about how people learn.",
   text2: "Let's look at some of the basics.",
   text3: "",
@@ -622,7 +981,7 @@ export const topicPages = [{
   page: "Engineering",
   title: "S.O.R.--The Engineering of Reading Instruction",
   challenge: "No, we don't have solid science for every aspect of teaching. Neither do designers of ships, rockets, or planes.",
-  pageXPs: ["XP7500"],
+  pageXPs: ["XP7500", "XP7510", "XP7520", "XP7506"],
   text1: "Here's a typical argument for why the Science of Reading should not be followed in the classroom:",
   text2: "'The apologetics of the gaps in the science and lack of replication is what has gotten us bad policy and bad curriculum. If we aren’t careful, we’ll just repeat history. It is why there are these pendulum swings and why movements get cult reputations.'",
   text3: "It's not on its face completely untrue. But it is bad advice.",
